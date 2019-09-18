@@ -1,0 +1,744 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+@import url(https://fonts.googleapis.com/css?family=Lusitana);
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+
+body {
+  height: 100%;
+  font-family: "Varela Round";
+  background: grey;
+}
+
+
+
+
+/* NAVBAR SETTING*/
+.navbar-default{
+  border:0;
+  font-family:Poppins;
+}
+
+.navbar-brand{
+  font-size:20px;
+  color:#000 !important;
+  font-weight:bold;
+  position: absolute;
+  left:10px;
+  margin-top: -12px;
+  /* 50% of your logo width */
+  display: block;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+.navbar-default {
+   background-color: transparent;
+   
+}
+
+a{
+  color: white;
+}
+a:hover {
+    color: white;
+    background-color: transparent;
+    
+}
+
+
+.navbar-default.scrolled {
+  background: rgba(133, 148, 140, 0.8) !important;
+  transition: background-color 200ms linear;
+}
+
+.navbar-default.scrolled .nav-link {
+  color:transparent;
+}
+/**HEADER PAGE**/
+/** Carousel **/
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+  filter: brightness(60%);
+  margin: auto;
+}
+.carousel-caption h1 {
+  font-size: 70px;
+ font-family: 'Playfair Display', serif;
+ text-shadow: 4px 3px 5px #080808;
+  letter-spacing: 5px;
+}
+.carousel-caption {
+  position: absolute;
+  top: 35%;
+  bottom: auto;
+  color: white;
+}
+
+.carousel-caption p {
+  font-size: 1.5em;
+  font-weight: 100;
+  letter-spacing: 5px;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+.carousel-caption h1 {
+  font-size: 80px;
+}
+.carousel-caption p {
+  display: none;
+}
+.carousel-caption {
+  position: absolute;
+  top: 25%;
+  bottom: auto;
+}
+}
+@media only screen and (max-width: 480px) {
+.carousel-caption h1 {
+  font-size: 100px;
+}
+.carousel-caption p {
+  display: none;
+}
+.carousel-caption {
+  position: absolute;
+  top: 25%;
+  bottom: auto;
+}
+}
+.carousel-indicators {
+    position: absolute;
+    margin-bottom: 85px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+}
+
+
+  
+
+
+
+
+
+
+
+
+/**ATTRACTIONS PAGE**/
+
+
+#attractions {
+  background: white ;
+  padding-bottom: 20px;
+  height: 100%;
+  position: relative;
+ 
+  
+  top: 100%;
+}
+
+@media only screen and (max-width: 480px){
+  .col-sm-4{
+    width:50%;
+  }
+}
+.panel-attraction-1{
+  background: url(../img/stmark.jpg) 0 0 no-repeat;
+  background-size: cover;
+  font-family: Poppins;
+}
+.panel-attraction-2{
+  background: url(../img/DogesPalace.jpg) 0 0 no-repeat;
+  background-size: cover;
+  font-family: Poppins;
+}
+.panel-attraction-3{
+  background: url(../img/RialtoBridge.jpg) 0 0 no-repeat;
+  background-size: cover;
+  font-family: Poppins;
+}
+.panel-attraction-4{
+  background: url(../img/GrandCanal.jpg) 0 0 no-repeat;
+  background-size: cover;
+  font-family: Poppins;
+}
+.panel-footer-attraction-1{
+  color: transparent;
+}
+.panel-footer-attraction-2{
+  color: transparent;
+}
+.panel-footer-attraction-3{
+  color: transparent;
+}
+.panel-footer-attraction-4{
+  color: transparent;
+}
+.panel-body-attraction-1 {
+    background-color: #fff !important;
+}
+.panel-body-attraction-1 h6{
+  font-family: Lato;
+  font-size: 15px;
+  text-align: left;
+  padding: 10px;
+}
+.panel-body-attraction-2 h6{
+  font-family: Lato;
+  font-size: 15px;
+  text-align: left;
+  padding: 10px;
+}
+.panel-body-attraction-3 h6{
+  font-family: Lato;
+  font-size: 15px;
+  text-align: left;
+  padding: 10px;
+}
+.panel-body-attraction-4 h6{
+  font-family: Lato;
+  font-size: 15px;
+  text-align: left;
+  padding: 10px;
+}
+.panel-body-attraction-1 h3 {
+    font-size: 32px;
+
+}
+
+.panel-body-attraction-1 h4 {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.panel-body-attraction-1 .btn {
+  border-radius: 0px;
+    margin: 15px 0;
+    background-color: grey;
+    color: #fff;
+}
+.panel-body-attraction-2 {
+    background-color: #fff !important;
+}
+
+.panel-body-attraction-2 h3 {
+    font-size: 32px;
+}
+
+.panel-body-attraction-2 h4 {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.panel-body-attraction-2 .btn {
+  border-radius: 0px;
+    margin: 15px 0;
+    background-color: grey;
+    color: #fff;
+}
+.panel-body-attraction-3 {
+    background-color: #fff !important;
+}
+
+.panel-body-attraction-3 h3 {
+    font-size: 32px;
+}
+
+.panel-body-attraction-3 h4 {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.panel-body-attraction-3 .btn {
+  border-radius: 0px;
+    margin: 15px 0;
+    background-color: grey;
+    color: #fff;
+}
+.panel-body-attraction-4 {
+    background-color: #fff !important;
+}
+
+.panel-body-attraction-4 h3 {
+    font-size: 32px;
+}
+.panel-body-attraction-4 h4 {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.panel-body-attraction-4 .btn {
+  border-radius: 0px;
+    margin: 15px 0;
+    background-color: grey;
+    color: #fff;
+}
+
+
+
+
+
+ 
+
+
+
+/**ACTIVITIES PAGE**/
+#activities {
+ background: #B09F7B;
+  background-size: cover;
+  position: relative;
+  margin-top: auto;
+  padding-bottom: 20px;
+  top: 100%;
+}
+
+.activities-text h1 {
+    font-size: 50px;
+    font-family: Poppins;
+    color: white;
+  }
+.activities-text h4{
+
+  font-family: Poppins;
+  color: white;
+
+}
+
+.panel-c{
+  background: url(../img/cover4.jpg) 0 0 no-repeat;
+  background-size: cover;
+  font-family: Poppins;
+}
+.panel-d{
+  background: url(../img/gondole2.jpg) 0 0 no-repeat;
+  background-size: cover;
+  font-family: Poppins;
+}
+.panel-e{
+  background: url(../img/Basillica.jpg) 0 0 no-repeat;
+  background-size: cover;
+  font-family: Poppins;
+}
+.panel-f{
+  background: url(../img/glass.jpg) 0 0 no-repeat;
+  background-size: cover;
+  font-family: Poppins;
+}
+.panel-body-c{
+  color: transparent;
+}
+.panel-body-d{
+  color: transparent;
+}
+.panel-body-e{
+  color: transparent;
+}
+.panel-body-f{
+  color: transparent;
+}
+.panel-footer-c {
+    background-color: #fff !important;
+}
+.panel-footer-c h6{
+  font-family: Lato;
+  font-size: 15px;
+  text-align: left;
+  padding: 10px;
+}
+.panel-footer-d h6{
+  font-family: Lato;
+  font-size: 15px;
+  text-align: left;
+  padding: 10px;
+}
+.panel-footer-e h6{
+  font-family: Lato;
+  font-size: 15px;
+  text-align: left;
+  padding: 10px;
+}
+.panel-footer-f h6{
+  font-family: Lato;
+  font-size: 15px;
+  text-align: left;
+  padding: 10px;
+}
+.panel-footer-c h3 {
+    font-size: 32px;
+
+}
+
+.panel-footer-c h4 {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.panel-footer-c .btn {
+  border-radius: 0px;
+    margin: 15px 0;
+    background-color: grey;
+    color: #fff;
+}
+.panel-footer-d {
+    background-color: #fff !important;
+}
+
+.panel-footer-d h3 {
+    font-size: 32px;
+}
+
+.panel-footer-d h4 {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.panel-footer-d .btn {
+  border-radius: 0px;
+    margin: 15px 0;
+    background-color: grey;
+    color: #fff;
+}
+.panel-footer-e {
+    background-color: #fff !important;
+}
+
+.panel-footer-e h3 {
+    font-size: 32px;
+}
+
+.panel-footer-e h4 {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.panel-footer-e .btn {
+  border-radius: 0px;
+    margin: 15px 0;
+    background-color: grey;
+    color: #fff;
+}
+.panel-footer-f {
+    background-color: #fff !important;
+}
+
+.panel-footer-f h3 {
+    font-size: 32px;
+}
+
+.panel-footer-f h4 {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.panel-footer-f .btn {
+  border-radius: 0px;
+    margin: 15px 0;
+    background-color: grey;
+    color: #fff;
+}
+/**FOOD PAGE**/
+#food {
+  background: white;
+  background-size: cover;
+  position: relative;
+  margin-top: auto;
+  padding-bottom: 20px;
+  top: 100%;
+}
+ h1{
+   font-size: 50px;
+  font-family: Poppins;
+
+}
+
+
+/**BOOKING PAGE**/
+#booking {
+ background: #B09F7B ;
+  background-size: cover;
+  position: relative;
+  margin-top: auto;
+  padding-bottom: 20px;
+  top: 100%;
+}
+.booking-text h1{
+  font-size: 50px;
+  font-family: Poppins;
+  color: white;
+
+}
+.booking-text h4{
+ 
+  font-family: Poppins;
+  color: white;
+
+}
+.panel-body{
+  font-family: Poppins;
+}
+.panel-heading-a {
+    color: #fff !important;
+    background:url('../img/The Riva Degli Schiavone.jpg') 0 0 no-repeat;
+    background-size: cover;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.panel-heading-b {
+    color: #fff !important;
+    background:url('../img/Santa Maria di Nazareth.jpg') 0 0 no-repeat;
+    background-size: cover;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.panel-footer {
+    background-color: #fff !important;
+}
+
+.panel-footer h3 {
+    font-size: 32px;
+}
+
+.panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.panel-footer .btn {
+  border-radius: 0px;
+    margin: 15px 0;
+    background-color: grey;
+    color: #fff;
+}
+
+ 
+
+/**SUBSCRIBE**/
+.form-control{
+  border-radius: 0px;
+   border: 1px solid;
+}
+
+.btn-theme{
+  background-color: transparent;
+  border: solid;
+  border-color:white;
+}
+.container span {
+  padding-left: 10px;
+    margin-left: 30px;
+    font-weight: 600;
+    font-family: 'Noto Serif JP', sans-serif;
+    font-size: 19px;
+    color: white;
+    text-shadow: 4px 3px 3px grey;
+}
+.slideanim {visibility:visible;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  .fa-arrow-up{
+  font-size: 30px;
+ }
+ .fa-arrow-up h5{
+  font-family: Poppins;
+ }
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgba(25, 30, 38, 0.3) !important; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 10px; /* Some padding */
+  
+}
+/**map**/
+.mapouter{text-align:center;
+ height:100%;
+ width:100%;
+}
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:100%;
+  width:100%;
+  border: 1px solid;
+}
+/**SUBSCRIBE BUTTON**/
+.btn-theme{
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: 0px;
+}
+.btn:hover {
+    
+    text-decoration: none;
+}
+ /**footer**/
+#myFooter {
+  background-color: #3a3f46;
+  color: white;
+  position: relative;
+  top: 100%;
+  
+}
+
+
+#myFooter .row {
+    margin-bottom: 20px;
+}
+#myFooter p{
+  margin-top: 0px;
+  
+  color: white;
+  font-size: 20px;
+}
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+#myFooter .social-icons {
+    float:right;
+}
+
+
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .google:hover {
+    color: #ef1a1a;
+}
+
+#myFooter .twitter:hover {
+    color: purple;
+}
+
+@media only screen and (max-width: 768px) {
+    #myFooter {
+        text-align: center;
+    }
+
+    #myFooter .info{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+  #myFooter {
+        text-align: center;
+    }
+
+    #myFooter .info{
+        text-align: center;
+    }
+}    
+
+/* CSS used for positioning the footers at the bottom of the page. */
+/* You can remove this. */
+
+html{
+    height: 100%;
+}
+
+
+
+.content{
+   flex: 1 0 auto;
+   -webkit-flex: 1 0 auto;
+   min-height: 200px;
+}
+
+#myFooter{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+}
+#myFooter .social-networks {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#myFooter .social-networks a {
+    font-size: 32px;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #f9f9f9;
+    padding: 20px;
+    transition: 0.2s;
+}
+.footer-copyright{
+  line-height: 1;
+}

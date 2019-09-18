@@ -1,0 +1,492 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+@import url(https://fonts.googleapis.com/css?family=Lusitana);
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+
+body {
+  height: 100%;
+  font-family: "Varela Round";
+  background: grey;
+}
+
+
+
+
+/* NAVBAR SETTING*/
+.navbar-default{
+  border:0;
+  font-family:Poppins;
+}
+
+.navbar-brand{
+  font-size:20px;
+  color:#000 !important;
+  font-weight:bold;
+  position: absolute;
+  left:10px;
+  margin-top: -12px;
+  /* 50% of your logo width */
+  display: block;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+.navbar-default {
+   background-color: transparent;
+   
+}
+
+a{
+  color: white;
+}
+a:hover {
+    color: white;
+    background-color: transparent;
+    
+}
+
+
+.navbar-default.scrolled {
+  background: rgba(133, 148, 140, 0.8) !important;
+  transition: background-color 200ms linear;
+}
+
+.navbar-default.scrolled .nav-link {
+  color:transparent;
+}
+/**HEADER PAGE**/
+/** Carousel **/
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+  filter: brightness(60%);
+  margin: auto;
+}
+.carousel-caption h1 {
+  font-size: 68px;
+ font-family: 'Playfair Display', serif;
+ text-shadow: 4px 3px 5px #080808;
+  letter-spacing: 5px;
+}
+.carousel-caption {
+  position: absolute;
+  top: 35%;
+  bottom: auto;
+  color: white;
+}
+
+.carousel-caption p {
+  font-size: 1.5em;
+  font-weight: 100;
+  letter-spacing: 5px;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+.carousel-caption h1 {
+  font-size: 80px;
+}
+.carousel-caption p {
+  display: none;
+}
+.carousel-caption {
+  position: absolute;
+  top: 25%;
+  bottom: auto;
+}
+}
+@media only screen and (max-width: 480px) {
+.carousel-caption h1 {
+  font-size: 100px;
+}
+.carousel-caption p {
+  display: none;
+}
+.carousel-caption {
+  position: absolute;
+  top: 25%;
+  bottom: auto;
+}
+}
+.carousel-indicators {
+    position: absolute;
+    margin-bottom: 85px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+}
+
+ 
+/**BUDGET PAGE**/
+#budget {
+  background: white ;
+
+  padding-bottom: 20px;
+  position: relative;
+  
+  top: 100%;
+}
+ 
+#budget h3{
+  color: black;
+  font-family: Poppins;
+  font-size: 50px;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+.img-responsive {
+    display: block;
+    height: 120%;
+    max-width: 100%;
+}
+#budget img {
+  margin: 0 auto;
+  margin-top: 10px;
+  
+  position: relative;
+  
+  
+    
+  width: 80%;
+  height: 80%;
+}
+
+
+
+.img-circle {
+    border-radius: 50%;
+}
+.img-circle {
+    border-radius: 0;
+}
+
+
+
+.img-circle {
+    border-radius: 50%;
+}
+.img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+/**ACCOMMODATION PAGE**/
+#accommodation {
+ background: #B09F7B ;
+  background-size: cover;
+  position: relative;
+  margin-top: auto;
+  padding-bottom: 20px;
+  top: 100%;
+
+}
+#accommodation h3{
+  color: white;
+  font-family: Poppins;
+  font-size: 50px;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.img-responsive {
+    display: block;
+    height: 120%;
+    max-width: 100%;
+}
+#accommodation img {
+  margin: 0 auto;
+  margin-top: 10px;
+  
+  position: relative;
+  
+  
+    
+  width: 80%;
+  height: 80%;
+}
+
+
+/**TRANSPORT PAGE**/
+#transport {
+  background: white;
+  background-size: cover;
+  position: relative;
+  margin-top: auto;
+  padding-bottom: 20px;
+  top: 100%;
+}
+#transport h3{
+  color:black;
+  font-family: Poppins;
+  font-size: 50px;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.img-responsive {
+    display: block;
+    height: 120%;
+    max-width: 100%;
+}
+#transport img {
+  margin: 0 auto;
+  margin-top: 10px;
+  
+  position: relative;
+  
+  
+  width: 80%;
+  height: 80%;
+}
+
+
+  
+
+/** LOCAL PAGE **/
+
+
+#local {
+  background:#B09F7B ;
+  background-size: cover;
+  position: relative;
+  margin-top: auto;
+  padding-bottom: 20px;
+  top: 100%;
+}
+
+#local h3{
+  color:white;
+  font-family: Poppins;
+  font-size: 50px;
+}
+.img-circle {
+    border-radius: 50%;
+
+}
+.img-responsive {
+    display: block;
+    height: 120%;
+    max-width: 100%;
+}
+#local img {
+  margin: 0 auto;
+  margin-top: 10px;
+  
+  position: relative;
+  
+  
+  width: 80%;
+  height: 80%;
+}
+.icon1{
+  margin-right: 40px;
+}
+.icon2{
+  margin-right: 40px;
+} 
+.icon3{
+  margin-right: 40px;
+}
+.icon4{
+  margin-right: 40px;
+} 
+.slideanim {visibility:visible;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  .fa-arrow-up{
+  font-size: 30px;
+ }
+ .fa-arrow-up h5{
+  font-family: Poppins;
+ }
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgba(25, 30, 38, 0.3) !important; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 10px; /* Some padding */
+  
+}
+ /**SUBSSCRIBE**/
+
+.form-control{
+  border-radius: 0px;
+   border: 1px solid;
+}
+.btn-theme{
+  background-color: transparent;
+  border: solid;
+  border-color:white;
+  border-radius: 0px;
+}
+.container span {
+  padding-left: 10px;
+    margin-left: 30px;
+    font-weight: 600;
+    font-family: 'Noto Serif JP', sans-serif;
+    font-size: 19px;
+    color: white;
+    text-shadow: 4px 3px 3px grey;
+}
+ /**footer**/
+#myFooter {
+  background-color: #3a3f46;
+  color: white;
+  position: relative;
+  top: 100%;
+  
+}
+
+
+#myFooter .row {
+    margin-bottom: 20px;
+}
+#myFooter p{
+  margin-top: 0px;
+  
+  color: white;
+  font-size: 20px;
+}
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+#myFooter .social-icons {
+    float:right;
+}
+
+
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .google:hover {
+    color: #ef1a1a;
+}
+
+#myFooter .twitter:hover {
+    color: purple;
+}
+
+@media only screen and (max-width: 768px) {
+    #myFooter {
+        text-align: center;
+    }
+
+    #myFooter .info{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+  #myFooter {
+        text-align: center;
+    }
+
+    #myFooter .info{
+        text-align: center;
+    }
+}    
+
+/* CSS used for positioning the footers at the bottom of the page. */
+/* You can remove this. */
+
+html{
+    height: 100%;
+}
+
+
+
+.content{
+   flex: 1 0 auto;
+   -webkit-flex: 1 0 auto;
+   min-height: 200px;
+}
+
+#myFooter{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+}
+#myFooter .social-networks {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#myFooter .social-networks a {
+    font-size: 32px;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #f9f9f9;
+    padding: 20px;
+    transition: 0.2s;
+}
+.footer-copyright{
+  line-height: 1;
+}

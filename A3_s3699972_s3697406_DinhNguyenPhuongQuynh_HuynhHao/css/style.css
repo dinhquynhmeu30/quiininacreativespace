@@ -1,0 +1,742 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+@import url(https://fonts.googleapis.com/css?family=Lusitana);
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+body {
+  height: 100%;
+  font-family: "Varela Round";
+  background: grey;
+}
+
+
+
+
+/* NAVBAR SETTING*/
+.navbar-default{
+  border:0;
+  font-family:Poppins;
+}
+
+.navbar-brand{
+  font-size:20px;
+  color:#000 !important;
+  font-weight:bold;
+  position: absolute;
+  left:10px;
+  margin-top: -12px;
+  /* 50% of your logo width */
+  display: block;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+.navbar-default {
+   background-color: transparent;
+   
+}
+
+a{
+  color: white;
+}
+a:hover {
+    color: white;
+    background-color: transparent;
+    
+}
+
+
+
+
+@media only screen and (max-width:768px)  {
+
+    .navbar-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+    
+
+}
+.navbar-default.scrolled {
+  background: rgba(133, 148, 140, 0.8) !important;
+  transition: background-color 200ms linear;
+}
+
+.navbar-default.scrolled .nav-link {
+  color:transparent;
+}
+/**HEADER PAGE**/
+#header {
+
+  background: url('../img/venice2.jpg') 0 0 no-repeat;
+  background-size: cover;
+  position: absolute;
+  height: 100%;
+  right: 0;
+  left: 0;
+  top: 0;
+  max-width: 100%;
+
+}
+
+#down {
+-vendor-animation-duration: 3s;
+-vendor-animation-delay: 2s;
+-vendor-animation-iteration-count: infinite;
+}
+
+
+
+.jumbotron{
+  background: url('../img/venice2.jpg') 0 0 no-repeat;
+  background-size: cover;
+  margin-bottom:0;
+  background-position: center;
+}
+
+.vertical-center{
+     min-height: 100%;  /* Fallback for vh unit */
+  min-height: 100vh; /* You might also want to use
+                        'height' property instead.
+                        
+                        Note that for percentage values of
+                        'height' or 'min-height' properties,
+                        the 'height' of the parent element
+                        should be specified explicitly.
+  
+                        In this case the parent of '.vertical-center'
+                        is the <body> element */
+
+  /* Make it a flex container */
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; 
+  
+  /* Align the bootstrap's container vertically */
+    -webkit-box-align : center;
+  -webkit-align-items : center;
+       -moz-box-align : center;
+       -ms-flex-align : center;
+          align-items : center;
+  
+  /* In legacy web browsers such as Firefox 9
+     we need to specify the width of the flex container */
+  width: 100%;
+  
+  /* Also 'margin: 0 auto' doesn't have any effect on flex items in such web browsers
+     hence the bootstrap's container won't be aligned to the center anymore.
+  
+     Therefore, we should use the following declarations to get it centered again */
+         -webkit-box-pack : center;
+            -moz-box-pack : center;
+            -ms-flex-pack : center;
+  -webkit-justify-content : center;
+          justify-content : center;
+}
+
+
+ .jumbotron h1{
+  text-align: center; 
+  display: inline-block; 
+  vertical-align: middle;
+  font-family: 'Playfair Display', serif;
+  font-size: 180px;
+  color: white;
+  padding-bottom: 20px;
+  text-shadow: 4px 3px 3px rgba(53, 54, 56, 1);
+  
+}
+.container-icon{
+   position: absolute;
+   top: 89%;
+   left:49%;
+}
+@media screen and (max-width: 768px){
+.container-icon{
+   position: relative;
+   margin-top: 50%;
+}
+}
+@media screen and (max-width: 480px){
+.container-icon{
+   position: relative;
+   margin-top: 30%;
+}
+}
+.container-footer {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto auto auto auto;
+  
+}
+
+.text-label {
+  letter-spacing: 5px;
+  position: absolute;
+  text-transform: uppercase;
+  font-family:Lato;
+  font-size: 20px;
+  font-weight: 600;
+  text-shadow: 1px 2px 2px black;
+  color: #fff;
+}
+
+.fa-angle-down {
+  width: 30px;
+  height: 30px;
+  margin: 10px 0;
+  
+ 
+}
+ /*ICON ANIMATION*/
+.slideInDown {
+  -webkit-animation: slideInDown 1s;
+          animation: slideInDown 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes slideInDown {
+  0%,
+  25%,
+  50%,
+  75%,
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+  60% {
+    -webkit-transform: translateY(-12px);
+            transform: translateY(-12px);
+  }
+}
+
+@keyframes slideInDown {
+  0%,
+  25%,
+  50%,
+  75%,
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+  60% {
+    -webkit-transform: translateY(-12px);
+            transform: translateY(-12px);
+  }
+}
+
+/**VENICE PAGE**/
+#venice {
+background-color: #B09F7B;
+  padding-bottom: 20px;
+  position: relative;
+  
+  top: 100%;
+}
+ 
+
+
+
+
+.text h3{
+  border: 4px solid white;
+  font-family: Poppins;
+  font-weight: 800;
+  font-size: 60px;
+  color: white;
+  margin-right: 20px;
+  text-align: left;
+  padding: 10px;
+}
+.text-venice p{
+  z-index: 1;
+  font-family: Roboto;
+  text-align: left;
+  font-size: 23px;
+  color: white;
+ 
+}
+
+.input-group-btn:last-child>a .btn-venice{
+    z-index: 2;
+    margin-right: 20px;
+
+    margin-bottom: 50px;
+}
+.input-group-Btn:last-child>a :hover{
+  color: white;
+}
+.input-group-Btn {
+   
+}
+.btn-venice{
+  font-family: Poppins;
+  
+  font-size: 30px;
+  font-weight: 600;
+  background-color: transparent;
+  border: 3px solid white;
+  border-radius: 0px;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+.img-circle {
+    border-radius: 0;
+}
+
+
+/**BOOKING PAGE**/
+#tips {
+ background-color: white ;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 30px;
+ 
+  
+  top: 100%;
+}
+#tips h1{
+  font-size:50px;
+  text-align: center;
+  font-family: Poppins;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.img-responsive {
+    display: block;
+    height: 120%;
+    max-width: 100%;
+}
+.collapse p {
+padding-left: 15%;
+padding-right: 15%;
+padding-bottom: 15%;
+color: #333333;
+}
+
+#tips img {
+  margin: 0 auto;
+  margin-top: 10px;
+  
+  position: relative;
+  
+  filter: grayscale(100%);
+  width: 60%;
+  height: 60%;
+}
+
+#tips img:hover {
+  filter: none;
+  transform: scale(1.1,1.1);
+}
+/**ABOUT US PAGE**/
+#about {
+    background-color: #B09F7B;
+  background-size: cover;
+  position: relative;
+ 
+  padding: 10px;
+  top: 100%;
+}
+#about h1{
+  font-size:50px;
+  text-align: center;
+  font-family: Poppins;
+  color: white;
+}
+.thumbnail .caption {
+   padding:0px;
+    color: #333;
+}
+.carousel-control.right  {
+    background-image: none;
+    color: black;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+
+}
+.carousel-control.left{
+  background-image: none;
+    color: black;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+.carousel-indicators li {
+    border-color: black;
+}
+
+.carousel-indicators li.active {
+    background-color: black;
+}
+
+.item h4 {
+    font-size: 16px;
+    
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+}
+
+.item h3 {
+  font-size: 15px;
+  font-style: normal;
+}
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    
+    border-radius: 0px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+
+.pull-left {
+  padding-right: 10px;
+}
+.caption h2 {
+  font-family: Poppins;
+
+  font-weight: 600;
+  font-size: 30px;
+}
+.caption h2 {
+  font-family: Poppins;
+
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.thumbnail-quote {
+    
+    height:210px;
+    color: black;
+    display: inline-block;
+    padding: 4px;
+    margin-bottom: 20px;
+    background-color:white;
+   
+    border-radius: 0px;
+    
+}
+.thumbnail-quote h2{
+  font-size: 30px;
+  font-family: 'Varela Round';
+  
+}
+
+.thumbnail-quote h1{
+  font-size: 50px;
+  font-weight: 600;
+  font-family: 'Poppins';
+}
+.thumbnail-quote h4{
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Poppins';
+  margin-bottom: 10px;
+}
+
+
+
+
+ /**CONTACT US PAGE**/
+ #contact {
+  background: white ;
+  background-size: cover;
+  position: relative;
+ padding-bottom: 20px;
+  padding-top: 20px;
+  top: 100%;
+}
+
+.wrapper{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 100%;
+  text-align: center;
+  white-space: nowrap;
+}
+#contact h1{
+  font-size39px;
+  text-align: center;
+  font-family: Poppins;
+}
+form {
+  
+   text-align: left;
+}
+.wrapper:before{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 0;
+    
+    height: 100%;
+}
+.contact-box{
+    display: inline-block;
+    vertical-align: middle;
+    white-space: normal;
+    padding: 0 1em;
+
+    
+}
+ input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid darkgrey;
+    border-radius: 0px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+
+}
+
+
+form input[type=Submit] {
+    text-align: right;
+    background-color: grey;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: grey;
+}
+
+.container form {
+    background-color: white;
+    padding: 20px;
+
+}
+.form-control{
+  border-radius: 0px;
+   border: 1px solid;
+}
+
+/**slide effect**/
+.slideanim {visibility:visible;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  /**back to top button**/
+ .fa-arrow-up{
+  font-size: 30px;
+ }
+ .fa-arrow-up h5{
+  font-family: Poppins;
+ }
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgba(25, 30, 38, 0.3) !important; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 10px; /* Some padding */
+  
+}/**map**/
+.mapouter{text-align:center;
+ height:100%;
+ width:100%;
+}
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:100%;
+  width:100%;
+  border: 1px solid;
+}
+/**SUBSCRIBE BUTTON**/
+.btn-theme{
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: 0px;
+}
+.btn:hover {
+    
+    text-decoration: none;
+}
+.container span {
+  padding-left: 10px;
+    margin-left: 30px;
+    font-weight: 600;
+    font-family: 'Noto Serif JP', sans-serif;
+    font-size: 19px;
+    color: white;
+    
+}
+ /**footer**/
+#myFooter {
+  background-color: #293027;
+  color: white;
+  position: relative;
+  top: 100%;
+  
+}
+
+
+#myFooter .row {
+    margin-bottom: 20px;
+}
+#myFooter p{
+  margin-top: 0px;
+  
+  color: white;
+  font-size: 20px;
+}
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+#myFooter .social-icons {
+    float:right;
+}
+
+
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .google:hover {
+    color: #ef1a1a;
+}
+
+#myFooter .twitter:hover {
+    color: purple;
+}
+
+@media only screen and (max-width: 768px) {
+    #myFooter {
+        text-align: center;
+    }
+
+    #myFooter .li{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+  #myFooter {
+        text-align: center;
+    }
+
+    #myFooter .li{
+        text-align: left;
+    }
+}    
+
+/* CSS used for positioning the footers at the bottom of the page. */
+/* You can remove this. */
+
+html{
+    height: 100%;
+}
+
+
+
+.content{
+   flex: 1 0 auto;
+   -webkit-flex: 1 0 auto;
+   min-height: 200px;
+}
+
+#myFooter{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+}
+#myFooter .social-networks {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#myFooter .social-networks a {
+    font-size: 32px;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #f9f9f9;
+    padding: 20px;
+    transition: 0.2s;
+}
+.footer-copyright{
+  line-height: 1;
+}
